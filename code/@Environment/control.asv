@@ -1,0 +1,71 @@
+classdef Control < handle
+    % control contains functions and parameters to control robot movements
+    
+    properties
+        
+        velocity;
+        launchAngle;
+        allignmentAngle; % 360 degree angle for robot to allign to hoop.
+        pullBackDirection; % 1 or 0. 1 if allignmentAngle is > 180 and < 360. This accounts for joint 1 not having full 360 degree range. 
+                           % Robot will just move between 180 degree range and bend back in different directions.
+        
+    end
+    
+    methods
+        
+        function obj = Control(robot,object,hoopPosition)
+            
+            robot = robot;
+            
+            
+        end
+        
+        function ShootHoop(obj,robot,object,hoopPosition)
+            
+            Pick(obj,robot,object);
+            
+            ProjectileMotion(obj,robot,hoopPosition);
+            
+            Throw(obj,robot,object);
+        end
+        
+        function Pick(obj,robot,object)
+            
+            % determine pick point from the object midpoint??? (instead of
+            % passing a seperate variable)
+            
+        end
+        
+        function ProjectileMotion(obj,robot,hoopPosition)
+            
+            % calculate these values in here
+            % velocity;
+            % launchAngle;
+            % allignmentAngle;   % 360 degree angle for robot to allign to hoop.
+            % pullBackDirection; % 1 or 0. 1 if allignmentAngle is > 180 and < 360. This accounts for joint 1 not having full 360 degree range. 
+                                 % Robot will just move between 180 degree range and bend back in different directions.
+            
+        end
+        
+        function Throw(obj,robot,object)
+            
+            % Turn to allign with hoop
+            
+            % Make sure the gripper stays horizontal to whole time so that
+            % the ball does not "fall off" until throwing
+            
+            % set joint anlges to outstretch all links except
+            % bend back link 1 90 degrees (robot laying
+            % horizontal to ground)
+            % Throw and stop movement at the desired launch angle (ball
+            % will coninue its motion
+        end
+        
+        function CollisionAvoidance(obj,robot,object)
+            
+           
+        end
+        
+        
+    end
+end
