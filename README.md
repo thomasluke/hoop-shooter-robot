@@ -5,7 +5,7 @@
 ## Contributors: ##
 * Thomas Harrison (12876785) <br/>
 * Pranav Singhal (12988414) <br/>
-[Origrinal Group Repository Link] https://github.com/Pranavsinghal1/hoop-shooter-9000.git
+[Origrinal Group Repository Link](https://github.com/Pranavsinghal1/hoop-shooter-9000.git)
 
 ## Overview ##
 The project is aimed at using KUKA LBRIIWAR800 to shoot basketballs in side the hoop. All code is MATLAB based. Everything is controlled using a GUI developed in app desigener. The project focusses on concepts like robotic arm control, trajectory planning, collision avoidance, visual servoing and simulated envisronemnet setup.
