@@ -5,12 +5,8 @@
 * Thomas Harrison (12876785) <br/>
 * Pranav Singhal (12988414) <br/>
 
-## Original Git Repository Link ##
-
-https://github.com/Pranavsinghal1/hoop-shooter-9000.git
-
 ## Overview ##
-The project is aimed at using KUKA LBRIIWAR800 to shoot basketballs in side the hoop. All code is MATLAB based. Everything is controlled using a GUI developed in app desigener. The project focuses on concepts like robotic arm control, trajectory planning, collision avoidance, visual servoing and simulated environment setup.
+The project is aimed at using KUKA LBRIIWAR800 to shoot basketballs in side the hoop. All code is MATLAB based. Everything is controlled using a GUI developed in app desigener. The project focusses on concepts like robotic arm control, trajectory planning, collision avoidance, visual servoing and simulated envisronemnet setup.
 
 ## Setup and execution ##
 To run this program MATLAB is required.
@@ -21,7 +17,7 @@ To run this program MATLAB is required.
 
 ## Demonstration ##
 #### Trailer Video: [LINK](https://youtu.be/3fmOVUSD0oQ)
-#### Full Video: [Coming Soon!](https://youtu.be/3fmOVUSD0oQ)
+#### Full Video: [LINK](https://youtu.be/WoHQHrU4dg8)
 
 ## GUI Controls ##
 1. Verify if robot is loaded sucessfully otherwise add relenavt files to the MATLAB directory.
